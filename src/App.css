@@ -1,0 +1,89 @@
+
+.App-header {
+  background-color: #174297;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-search {
+  border: none;
+  outline: none;
+}
+
+.input-search::placeholder {
+  color: #a0aec0;
+}
+
+@media (max-width: 750px) {
+  /* Styles for both media queries go here */
+
+  /* Styles for the first set of rules */
+  .flex {
+    flex-direction: column;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .max-w-sm {
+    width: 100%;
+  }
+  .m-2 {
+    margin: 0.5rem 0;
+  }
+  
+  
+  .triangle {
+    display: none;
+  }
+  .items {
+    display: none;
+  }
+  .footerend {
+    text-align: center;
+  }
+
+  /* Styles for the second set of rules */
+  .carousel-slide {
+    flex-direction: column;
+  }
+  .carousel-content {
+    width: 100%;
+    margin-left: 0;
+  }
+  .carousel-content .flex {
+    flex-direction: column;
+  }
+  .carousel-content .flex .flex {
+    flex-direction: row;
+  }
+  .boxes {
+    margin-left: 0px;
+  }
+  .heading {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .image00 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hide {
+    display: none;
+  }
+  .set {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .triangle {
+    display: none;
+  }
+}
